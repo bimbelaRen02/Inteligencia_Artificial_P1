@@ -1,5 +1,10 @@
-age = int(input('¿Cuál es tu edad?\n'))
+"""Las entradas de un usuario para poder recibir datos
+se ingresan con el método input pero primero sí necesitamos
+especificar el tipo de la variable que esperamos recibir"""
 
+age = int(input('¿Cuál es tu edad?\n')) #Preguntamos algo y esperamos una variable entera
+
+#Imprimimos diferentes mensajes según el rango de edad con los elif para varios casos:
 if age <= 0:
 	print('Nadie puede tener esa edad (zopenco).')
 elif age >= 1 and age < 18:

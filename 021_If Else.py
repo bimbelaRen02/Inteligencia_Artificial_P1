@@ -7,6 +7,7 @@ if color != rojo
 Print "El color no es rojo."
 """
 
+#Buscamos el cambio de else por un if con su propio else
 color = 'rojo'
 if color == 'rojo':
     print('El color es ' + color)

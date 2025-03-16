@@ -1,3 +1,14 @@
+"""El condicional if a a ejecutar
+un determinado código solo si se
+cumplen una o varias condiciones.
+Nombre del operador /	Descripción
+>	Mayor que
+<	Menor que
+>=	Mayor o igual que
+<=	Menor o igual que
+==	Igual que
+!=	Diferente que """
+
 num_1 = 15
 num_2 = 20
 num_3 = 1450
